@@ -1,8 +1,9 @@
 <header>
   <h1>ISH</h1>
   <nav class="nav-links">
-    <a routerLink="/">Home</a>
-    <a routerLink="/products">Products</a>
-    <a routerLink="/contact">Contact</a>
+    <a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/services" routerLinkActive="active-link">Services</a>
+    <a routerLink="/products" routerLinkActive="active-link">Products</a>
+    <a routerLink="/contact" routerLinkActive="active-link">Contact</a>
   </nav>
 </header>
