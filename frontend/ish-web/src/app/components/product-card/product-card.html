@@ -5,6 +5,9 @@
     <h2 class="product-name">{{ product.name }}</h2>
     <p class="product-category">{{ product.category }}</p>
     <p class="product-description">{{ product.description }}</p>
+    <a [routerLink]="['/products', product.id]" class="product-view-link">
+        View more...
+    </a>
     <p class="product-price">{{ product.price }}</p>
     <p class="product-stock">Stock: {{ product.stock }}</p>
 

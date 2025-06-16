@@ -77,3 +77,21 @@
     background-color: #0056b3;
   }
 }
+
+.product-view-link {
+  display: inline-block;
+  margin: 0.75rem 0 0.5rem; // margen superior e inferior
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+}
+
+
