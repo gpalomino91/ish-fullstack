@@ -1,1 +1,4 @@
-<p>product-detail works!</p>
+<div *ngIf="product">
+    <h2>{{product?.name}}</h2>
+    <p>{{product?.price}}</p>
+</div>
